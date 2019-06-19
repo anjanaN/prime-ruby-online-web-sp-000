@@ -6,7 +6,7 @@ def prime?(num)
   numset.none? { |number| num % number == 0}
 end
 
-=begin
+=begin Another way of solving this without using none?
 def prime?(num)
   prime = true
   if num < 2
