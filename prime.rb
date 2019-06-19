@@ -7,7 +7,7 @@ def prime?(num)
   numset.each do |number|
     if num % number == 0
       prime = false
-    end    
+    end
   end
   prime
 end
