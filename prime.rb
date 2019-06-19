@@ -6,8 +6,6 @@ def prime?(num)
   numset.none? { |number| num % number == 0}
 end
 
-puts Benchmark.measure { BigMath.PI(10_000) }
-
 =begin Another way of solving this without using none?
 def prime?(num)
   prime = true
