@@ -3,6 +3,6 @@ def prime?(num)
     return false
   end
   numset = Array(1..100)
-  numset.all? { |number| number % num == 0}
+  numset.none? { |number| number % num == 0}
 
 end
